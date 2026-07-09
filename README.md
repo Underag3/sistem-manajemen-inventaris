@@ -60,6 +60,23 @@ npm run dev
 php artisan serve
 ```
 
+### 🐳 Menjalankan dengan Docker (Nilai Tambahan)
+
+Jika ingin menjalankan aplikasi menggunakan Docker:
+
+```bash
+# 1. Build dan jalankan container
+docker compose up -d --build
+
+# 2. Jalankan migration & seeder di dalam container
+docker compose exec app php artisan migrate --seed
+
+# 3. Buat symbolic link storage di dalam container
+docker compose exec app php artisan storage:link
+```
+
+Aplikasi dapat diakses melalui `http://localhost:8000`.
+
 ### Akun Demo
 
 | Role | Email | Password |
