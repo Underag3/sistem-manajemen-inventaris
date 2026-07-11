@@ -1,7 +1,7 @@
 # Sistem Manajemen Inventaris Kantor
-## PT Telkomsel - Prototype Seleksi Magang Sistem Informasi
+## Prototype Seleksi Magang Sistem Informasi
 
-Aplikasi berbasis web untuk mengelola inventaris kantor PT Telkomsel. Dibangun menggunakan **Laravel 13**, **MySQL**, **Tailwind CSS**, dan **Alpine.js**.
+Aplikasi berbasis web untuk mengelola inventaris kantor. Dibangun menggunakan **Laravel 13**, **MySQL**, **Tailwind CSS**, dan **Alpine.js**.
 
 ---
 
@@ -177,7 +177,3 @@ PATCH  /api/borrowings/{id}/return # Return items
 | Maatwebsite Excel | 3.x | Export Excel |
 
 ---
-
-##  Lisensi
-
-Proyek ini dibuat sebagai prototype untuk seleksi magang PT Telkomsel.
